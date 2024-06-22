@@ -1,0 +1,54 @@
+header {
+    nav {
+        background-color: rgba(35, 37, 54, 1);
+        height: 10vh;
+
+        .container {
+            height: 10vh;
+
+            .flex {
+                button {
+                    padding: 20px 50px;
+                    background-color: #ffffff;
+                    border-radius: 4px;
+                    color: rgba(35, 37, 54, 1);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    height: 70vh;
+    background-color: rgba(35, 37, 54, 1);
+
+    .container {
+        nav {
+            height: 15vh;
+        }
+
+        .content {
+            height: 35vh;
+            background-color: rgba(76, 76, 76, 0.5);
+
+            .flex {
+                input {
+                    background-color: rgba(76, 76, 76, 0.5);
+                    padding: 10px;
+                    width: 300px;
+                    height: 50px;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+                button {
+                    background-color: rgba(255, 208, 80, 1);
+                    padding: 10px 50px;
+                    color: rgba(35, 37, 54, 1);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+header nav {
+  background-color: rgb(35, 37, 54);
+  height: 10vh;
+}
+
+header nav .container {
+  height: 10vh;
+}
+
+header nav .container .flex button {
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: rgb(35, 37, 54);
+}
+
+footer {
+  height: 70vh;
+  background-color: rgb(35, 37, 54);
+}
+
+footer .container nav {
+  height: 15vh;
+}
+
+footer .container .content {
+  height: 35vh;
+  background-color: rgba(76, 76, 76, 0.5);
+}
+
+footer .container .content .flex input {
+  background-color: rgba(76, 76, 76, 0.5);
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+footer .container .content .flex input:focus {
+  outline: none;
+}
+
+footer .container .content .flex button {
+  background-color: rgb(255, 208, 80);
+  padding: 10px 50px;
+  color: rgb(35, 37, 54);
+}
+
+/*# sourceMappingURL=index.css.map */
