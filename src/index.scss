@@ -13,6 +13,347 @@ header {
           background-color: #ffffff;
           border-radius: 4px;
           color: rgba(35, 37, 54, 1);
+    nav {
+        background-color: rgba(35, 37, 54, 1);
+        height: 10vh;
+
+        ul {
+            li {
+                a {
+                    transition-duration: 0.3s;
+                }
+                a:hover {
+                    color: rgba(255, 208, 80, 1);
+                    text-shadow: 0px 5px 10px #808080;
+                }
+            }
+        }
+
+        .container {
+            height: 10vh;
+
+            .flex {
+                button {
+                    transition-duration: 0.3s;
+                    padding: 20px 50px;
+                    background-color: #ffffff;
+                    border-radius: 4px;
+                    color: rgba(35, 37, 54, 1);
+                }
+                button:hover {
+                    padding: 20px 50px;
+                    background-color: #d5d1d1;
+                    border-radius: 4px;
+                    color: rgba(35, 37, 54, 1);
+                }
+            }
+        }
+    }
+
+    .bg_img {
+        height: 100vh;
+        background-image: url(./img/home_header_bg_img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        object-fit: cover;
+
+        .container {
+            button {
+                transition-duration: 0.3s;
+                background-color: rgba(255, 208, 80, 1);
+                padding: 20px 60px;
+            }
+            button:hover {
+                background-color: rgb(151, 122, 43);
+                padding: 20px 60px;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+main {
+    .posts {
+        .container {
+            .featured {
+                .post {
+                    padding: 45px;
+
+                    button {
+                        transition-duration: 0.3s;
+                        padding: 15px 50px;
+                        background-color: rgba(255, 208, 80, 1);
+                    }
+                    button:hover {
+                        padding: 15px 50px;
+                        background-color: rgb(151, 122, 43);
+                        color: #ffffff;
+                    }
+                }
+            }
+            .all {
+                .posts {
+                    padding: 45px;
+
+                    .post_1 {
+                        padding: 10px;
+                        transition-duration: 0.5s;
+                    }
+                    .post_1:hover {
+                        background-color: rgba(251, 246, 234, 1);
+                        box-shadow: 0px 3px 3px 5px #808080;
+                    }
+                    .post_2 {
+                        padding: 10px;
+                        transition-duration: 0.5s;
+                    }
+                    .post_2:hover {
+                        background-color: rgba(251, 246, 234, 1);
+                        box-shadow: 0px 3px 3px 5px #808080;
+                    }
+                    .post_3 {
+                        padding: 10px;
+                        transition-duration: 0.5s;
+                    }
+                    .post_3:hover {
+                        background-color: rgba(251, 246, 234, 1);
+                        box-shadow: 0px 3px 3px 5px #808080;
+                    }
+                    .post_4 {
+                        padding: 10px;
+                        transition-duration: 0.5s;
+                    }
+                    .post_4:hover {
+                        background-color: rgba(251, 246, 234, 1);
+                        box-shadow: 0px 3px 3px 5px #808080;
+                    }
+                }
+            }
+        }
+    }
+    .about_us {
+        .container {
+            .content_box {
+                position: relative;
+                bottom: 11rem;
+                background-color: rgba(244, 240, 248, 1);
+                height: 70vh;
+
+                .container {
+                    height: 70vh;
+
+                    .about_us {
+                        button {
+                            padding: 15px 45px;
+                            transition-duration: 0.3s;
+                        }
+                        button:hover {
+                            background-color: rgba(89, 46, 169, 1);
+                            color: #ffffff;
+                            border-radius: 4px;
+                        }
+                    }
+                    .our_mision {
+                        width: 75%;
+                        height: 70vh;
+                    }
+                }
+            }
+        }
+    }
+    .category {
+        .container {
+            .categories {
+                .category_1 {
+                    transition-duration: 0.6s;
+                    padding: 15px;
+                    border: 1px solid rgb(230, 225, 234);
+
+                    img {
+                        background-color: #ffffff;
+                    }
+                }
+                .category_2 {
+                    transition-duration: 0.6s;
+                    padding: 15px;
+                    border: 1px solid rgb(230, 225, 234);
+
+                    img {
+                        padding: 10px;
+                        background-color: #ffffff;
+                    }
+                }
+                .category_3 {
+                    transition-duration: 0.6s;
+                    padding: 15px;
+                    border: 1px solid rgb(230, 225, 234);
+
+                    img {
+                        background-color: #ffffff;
+                    }
+                }
+                .category_4 {
+                    transition-duration: 0.6s;
+                    padding: 15px;
+                    border: 1px solid rgb(230, 225, 234);
+
+                    img {
+                        background-color: #ffffff;
+                    }
+                }
+                .category_1:hover {
+                    border-radius: 4px;
+                    box-shadow: 0px 0px 10px #808080;
+                    border: 1px solid rgba(255, 208, 80, 1);
+                    background-color: rgba(255, 208, 80, 1);
+
+                    img {
+                        border-radius: 4px;
+                    }
+                }
+                .category_2:hover {
+                    border-radius: 4px;
+                    box-shadow: 0px 0px 10px #808080;
+                    border: 1px solid rgba(255, 208, 80, 1);
+                    background-color: rgba(255, 208, 80, 1);
+
+                    img {
+                        border-radius: 4px;
+                    }
+                }
+                .category_3:hover {
+                    border-radius: 4px;
+                    box-shadow: 0px 0px 10px #808080;
+                    border: 1px solid rgba(255, 208, 80, 1);
+                    background-color: rgba(255, 208, 80, 1);
+
+                    img {
+                        border-radius: 4px;
+                    }
+                }
+                .category_4:hover {
+                    border-radius: 4px;
+                    box-shadow: 0px 0px 10px #808080;
+                    border: 1px solid rgba(255, 208, 80, 1);
+                    background-color: rgba(255, 208, 80, 1);
+
+                    img {
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .discover {
+        height: 100vh;
+        overflow: hidden;
+        .container {
+            .content {
+                padding: 50px;
+                height: 70vh;
+                background-color: #ffffff;
+                position: relative;
+                bottom: 40rem;
+                left: 45rem;
+
+                button {
+                    transition-duration: 0.3s;
+                    background-color: rgba(255, 208, 80, 1);
+                    padding: 20px 50px;
+                }
+                button:hover {
+                    background-color: rgb(151, 122, 43);
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .authors {
+        .container {
+            .persons {
+                .person_1 {
+                    transition-duration: 0.4s;
+                    padding: 50px;
+                    background-color: rgba(244, 244, 244, 1);
+                }
+                .person_2 {
+                    transition-duration: 0.4s;
+                    padding: 50px;
+                    background-color: rgba(244, 244, 244, 1);
+                }
+                .person_3 {
+                    transition-duration: 0.4s;
+                    padding: 50px;
+                    background-color: rgba(244, 244, 244, 1);
+                }
+                .person_4 {
+                    transition-duration: 0.4s;
+                    padding: 50px;
+                    background-color: rgba(244, 244, 244, 1);
+                }
+                .person_1:hover {
+                    padding: 49px;
+                    box-shadow: 0px 0px 10px 3px #808080;
+                    background-color: rgba(251, 246, 234, 1);
+                }
+                .person_2:hover {
+                    padding: 49px;
+                    box-shadow: 0px 0px 10px 3px #808080;
+                    background-color: rgba(251, 246, 234, 1);
+                }
+                .person_3:hover {
+                    padding: 49px;
+                    box-shadow: 0px 0px 10px 3px #808080;
+                    background-color: rgba(251, 246, 234, 1);
+                }
+                .person_4:hover {
+                    padding: 49px;
+                    box-shadow: 0px 0px 10px 3px #808080;
+                    background-color: rgba(251, 246, 234, 1);
+                }
+            }
+        }
+    }
+    .testimonial {
+        .container {
+            height: 70vh;
+            background-color: rgba(251, 246, 234, 1);
+
+            .content {
+                height: 70vh;
+                display: flex;
+                align-items: center;
+            }
+
+            .verticale-line {
+                width: 1px;
+                height: 50vh;
+                color: rgba(109, 110, 118, 1);
+            }
+
+            .review {
+                height: 70vh;
+                display: flex;
+                align-items: center;
+
+                .profile {
+                    height: 20vh;
+                }
+            }
+        }
+    }
+    .join_us {
+        .container {
+            button {
+                transition-duration: 0.3s;
+                padding: 17px 60px;
+                background-color: rgba(255, 208, 80, 1);
+            }
+            button:hover {
+                color: #ffffff;
+                background-color: rgb(151, 122, 43);
+            }
         }
       }
     }
@@ -100,6 +441,53 @@ footer {
 
         input:focus {
           outline: none;
+    .container {
+        nav {
+            height: 15vh;
+
+            ul {
+                li {
+                    a {
+                        transition-duration: 0.3s;
+                    }
+                    a:hover {
+                        color: rgba(255, 208, 80, 1);
+                        text-shadow: 0px 0px 5px;
+                    }
+                }
+            }
+        }
+
+        .content {
+            height: 35vh;
+            background-color: rgba(76, 76, 76, 0.5);
+          
+            .flex {
+                input {
+                    transition-duration: 0.3s;
+                    background-color: rgba(76, 76, 76, 0.5);
+                    padding: 10px;
+                    width: 300px;
+                    height: 50px;
+                }
+
+                input:focus {
+                    outline: none;
+                    box-shadow: 0px 0px 10px #ffffff;
+                }
+
+                button {
+                    transition-duration: 0.3s;
+                    background-color: rgba(255, 208, 80, 1);
+                    padding: 10px 50px;
+                    color: rgba(35, 37, 54, 1);
+                }
+                button:hover {
+                    background-color: rgb(151, 122, 43);
+                    padding: 10px 50px;
+                    color: #ffffff;
+                }
+            }
         }
 
         button {
@@ -326,4 +714,11 @@ flex-direction: column;
     }
   }
   
+}
+
+.privacy-header {
+    .content {
+        height: 50vh;
+        background-color: rgba(244, 240, 248, 1);
+    }
 }
