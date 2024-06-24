@@ -1,54 +1,329 @@
 header {
-    nav {
-        background-color: rgba(35, 37, 54, 1);
-        height: 10vh;
-
-        .container {
-            height: 10vh;
-
-            .flex {
-                button {
-                    padding: 20px 50px;
-                    background-color: #ffffff;
-                    border-radius: 4px;
-                    color: rgba(35, 37, 54, 1);
-                }
-            }
-        }
-    }
-}
-
-footer {
-    height: 70vh;
+  nav {
     background-color: rgba(35, 37, 54, 1);
+    height: 10vh;
 
     .container {
-        nav {
-            height: 15vh;
+      width: 100%;
+      max-width: 1300px;
+
+      .flex {
+        button {
+          padding: 20px 50px;
+          background-color: #ffffff;
+          border-radius: 4px;
+          color: rgba(35, 37, 54, 1);
         }
-
-        .content {
-            height: 35vh;
-            background-color: rgba(76, 76, 76, 0.5);
-
-            .flex {
-                input {
-                    background-color: rgba(76, 76, 76, 0.5);
-                    padding: 10px;
-                    width: 300px;
-                    height: 50px;
-                }
-
-                input:focus {
-                    outline: none;
-                }
-
-                button {
-                    background-color: rgba(255, 208, 80, 1);
-                    padding: 10px 50px;
-                    color: rgba(35, 37, 54, 1);
-                }
-            }
-        }
+      }
     }
+  }
+  .featured {
+    width: 100%;
+    height: 70vh;
+    background-color: #f4f0f8;
+
+    div {
+      width: 43%;
+      margin: auto;
+      height: 45vh;
+
+      button {
+        padding: 18px 40px;
+        background-color: #ffd050;
+        border: #ffd050;
+      }
+    }
+  }
+}
+main {
+  width: 90%;
+  height: 400vh;
+  margin: auto;
+  .posts {
+    width: 100%;
+    height: 100vh;
+
+    .post {
+      width: 100%;
+      height: 50vh;
+
+      img {
+        padding: 20px;
+        width: 46%;
+        height: 100%;
+      }
+    }
+  }
+  .category {
+    width: 100%;
+    height: 60vh;
+    margin-top: 1200px;
+    .cate {
+      div {
+        border: 1px gray solid;
+        padding: 30px;
+      }
+    }
+  }
+  .join_us {
+    width: 33%;
+    height: 50vh;
+
+    button {
+      background-color: #ffd050;
+      padding: 16px 48px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}
+footer {
+  height: 70vh;
+  background-color: rgba(35, 37, 54, 1);
+
+  .container {
+    nav {
+      height: 15vh;
+    }
+
+    .content {
+      height: 35vh;
+      background-color: rgba(76, 76, 76, 0.5);
+
+      .flex {
+        input {
+          background-color: rgba(76, 76, 76, 0.5);
+          padding: 10px;
+          width: 300px;
+          height: 50px;
+        }
+
+        input:focus {
+          outline: none;
+        }
+
+        button {
+          background-color: rgba(255, 208, 80, 1);
+          padding: 10px 50px;
+          color: rgba(35, 37, 54, 1);
+        }
+      }
+    }
+  }
+}
+
+
+// category
+.cate_top {
+  width: 100%;
+  height: 40vh;
+  background-color: #f4f0f8;
+  div {
+    width: 40%;
+    height: 30vh;
+    margin: auto;
+  }
+}
+.cate_posts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+  height: 170vh;
+  margin-left: 10px;
+
+  .cate_post {
+    margin-top: 20px;
+    width: 100%;
+    height: 40vh;
+
+    img {
+      width: 33%;
+      height: 40vh;
+      padding: 15px;
+    }
+  }
+}
+.cate_tips {
+  width: 20%;
+  margin-top: 50px;
+  height: 100vh;
+
+  div {
+    border: solid 1px rgb(106, 102, 102);
+    padding: 10px 0px;
+    border-radius: 1px;
+    margin-top: 20px;
+  }
+
+  .withcolor {
+    background-color: #ffd050;
+    border: #ffd050;
+    img {
+      border-radius: 5px;
+    }
+  }
+  .tags {
+    height: 50vh;
+    border: none;
+  }
+  .tag {
+    width: 40%;
+    height: 6vh;
+    float: right;
+    margin-right: 20px;
+    border-radius: 30px;
+  }
+}
+
+.contactdiv {
+  width: 80%;
+  height: 40vh;
+  background-color: #592ea9;
+  margin: auto;
+}
+
+.inputs {
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  margin-top: 50px;
+
+  input {
+    width: 100%;
+    font-size: large;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: #7a7a7a 1px solid;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: #7a7a7a 1px solid;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: #ffd050 1px solid;
+    background-color: #ffd050;
+  
+  }
+}
+
+@media screen and (max-width:384px) {
+
+  .cate_main{
+  margin-left: 10px;
+flex-direction: column; 
+}
+
+  .cate_top {
+    width: 55%;
+    height: 40vh;
+    background-color: #f4f0f8;
+    div {
+      width: 100%;
+      height: 30vh;
+      margin: auto;
+    }
+  }
+  .cate_posts {
+    margin-top: 170px;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 170vh;
+  
+    .cate_post {
+      margin-top: 450px;
+      width: 80%;
+      height: 40vh;
+  
+      img {
+        width: 33%;
+        height: 40vh;
+        padding: 15px;
+      }
+    }
+  }
+  .cate_tips {
+    width: 20%;
+    margin-top: 50px;
+    height: 100vh;
+  
+    div {
+      border: solid 1px rgb(106, 102, 102);
+      padding: 10px 0px;
+      border-radius: 1px;
+      margin-top: 20px;
+    }
+  
+    .withcolor {
+      background-color: #ffd050;
+      border: #ffd050;
+      img {
+        border-radius: 5px;
+      }
+    }
+    .tags {
+      height: 50vh;
+      border: none;
+    }
+    .tag {
+      width: 100%;
+      height: 6vh;
+      float: right;
+      margin-right: 20px;
+      border-radius: 30px;
+    }
+  }
+  .contactdiv {
+    width: 80%;
+    height: 40vh;
+    background-color: #592ea9;
+    margin: auto;
+  }
+
+  .contactcart{
+    h3{
+      font-size: medium;
+    }
+    h1{
+      font-size: large;
+    }
+  }
+  //////////////////////////////
+  .inputs {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 50px;
+  
+    input {
+      width: 100%;
+      font-size: large;
+      margin-top: 20px;
+      padding: 15px 25px;
+      border: #7a7a7a 1px solid;
+    }
+  
+    textarea {
+      width: 100%;
+      margin-top: 20px;
+      padding: 15px 25px;
+      border: #7a7a7a 1px solid;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 15px 25px;
+      border: #ffd050 1px solid;
+      background-color: #ffd050;
+    
+    }
+  }
+  
 }
